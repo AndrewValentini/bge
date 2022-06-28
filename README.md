@@ -40,3 +40,7 @@ sudo make install
 ## License
 
 The script is in the public domain.
+
+## Notice
+
+Only the first chapter (Prejudices of Philosophers) has been uploaded
