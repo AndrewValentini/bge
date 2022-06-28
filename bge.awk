@@ -10,7 +10,7 @@ BEGIN {
 	MAX_WIDTH = 80
 	if (ENVIRON["BGE_MAX_WIDTH"] ~ /^[0-9]+$/) {
 		if (int(ENVIRON["BGE_MAX_WIDTH"]) < MAX_WIDTH) {
-			MAX_WIDTH = int(ENVIRON["KJV_MAX_WIDTH"])
+			MAX_WIDTH = int(ENVIRON["BGE_MAX_WIDTH"])
 		}
 	}
 
