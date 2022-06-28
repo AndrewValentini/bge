@@ -1,5 +1,5 @@
 #!/bin/sh
-# vul: Read Nietzsche from your terminal
+# bge: Read Nietzsche from your terminal
 # License: Public domain
 
 SELF="$0"
@@ -59,7 +59,7 @@ while [ $# -gt 0 ]; do
 		break
 	elif [ "$1" = "-l" ]; then
 		# List all book names with their abbreviations
-		get_data bge.tsv | awk -v cmd=list "$(get_data vul.awk)"
+		get_data bge.tsv | awk -v cmd=list "$(get_data bge.awk)"
 		exit
 	elif [ "$1" = "-W" ]; then
 		export BGE_NOLINEWRAP=1
@@ -83,7 +83,7 @@ if [ $# -eq 0 ]; then
 
 	# Interactive mode
 	while true; do
-		printf "vul> "
+		printf "bge> "
 		if ! read -r ref; then
 			break
 		fi
