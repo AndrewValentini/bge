@@ -8,7 +8,7 @@ bge: bge.sh bge.awk bge.tsv
 	tar cz bge.awk bge.tsv >> $@
 	chmod +x $@
 
-test: vul.sh
+test: bge.sh
 	shellcheck -s sh bge.sh
 
 clean:
@@ -16,7 +16,7 @@ clean:
 
 install: bge
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
-	cp -f vul $(DESTDIR)$(PREFIX)/bin
+	cp -f bge $(DESTDIR)$(PREFIX)/bin
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/bge
 
 uninstall:
