@@ -43,7 +43,7 @@ The script is in the public domain.
 
 ## Notice
 
-Only the first chapter (Prejudices of Philosophers) has been uploaded
+Only Prejudices of Philosophers, The Free Spirit, and The Religious Mood has been uploaded
 
 ## To Do
 Create a random verse generator for terminal
