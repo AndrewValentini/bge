@@ -44,3 +44,6 @@ The script is in the public domain.
 ## Notice
 
 Only the first chapter (Prejudices of Philosophers) has been uploaded
+
+## To Do
+Create a random verse generator for terminal
