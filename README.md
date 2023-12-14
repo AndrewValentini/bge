@@ -1,5 +1,9 @@
 # bge - Friedrich Nietzsche's Beyond Good and Evil on the Command Line
 
+## Forked from Luke Smith's Latin Vulgate Bible on the Command Line: https://github.com/LukeSmithxyz/vul
+
+12/14/23: I haven't touched this repository in years and don't intend to continue working on it. 
+
 ## Usage
     usage: ./vul [flags] [reference...]
 
